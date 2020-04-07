@@ -34,10 +34,7 @@ class StorageWrapper<TValues extends Record<string, any> = Record<string, any>>
     key: TKey,
     value: TValues[TKey],
   ): void {
-    this.storage.setItem(
-      key,
-      typeof value === 'string' ? value : JSON.stringify(value),
-    );
+    this.storage.setItem(key, JSON.stringify(value));
   }
 
   removeItem<TKey extends Extract<keyof TValues, string>>(key: TKey): void {
