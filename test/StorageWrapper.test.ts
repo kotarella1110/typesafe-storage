@@ -14,7 +14,6 @@ describe('StorageWrapper', () => {
 
   beforeEach(() => {
     localStorage.clear();
-    (localStorage.setItem as any).mockClear();
   });
 
   it.each(testData)('getItem should call localStorage.getItem', key => {
@@ -23,9 +22,7 @@ describe('StorageWrapper', () => {
   });
 
   it('getItem should return null if JSON.prase error occurs', () => {
-    testData.forEach(([key, value]) => {
-      storage.setItem(key, value);
-    });
+    storage.setItem(testData[0][0], testData[0][1]);
     JSON.parse = jest.fn().mockImplementationOnce(() => {
       throw new Error();
     });

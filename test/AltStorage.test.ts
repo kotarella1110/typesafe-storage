@@ -19,7 +19,7 @@ describe('AltStorage', () => {
   });
 
   it('should get null if item is not exist', () => {
-    altStorage.setItem('key', 'value');
+    altStorage.setItem(testData[0][0], testData[0][1]);
     expect(altStorage.getItem('notExist')).toBe(null);
   });
 
