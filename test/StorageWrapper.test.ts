@@ -3,7 +3,7 @@ import StorageWrapper from '../src/StorageWrapper';
 describe('StorageWrapper', () => {
   const storage = new StorageWrapper(localStorage);
   const testData = [
-    ['string', 'value', 'value'],
+    ['string', 'value', JSON.stringify('value')],
     [
       'object',
       { key1: 1, key2: 'value' },
