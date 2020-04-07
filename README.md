@@ -17,7 +17,57 @@ Typesafe [Web Storage API](https://developer.mozilla.org/en-US/docs/Web/API/Web_
 
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
+## Installation
+
+```
+npm install typesafe-storage
+
+# or
+
+yarn add typesafe-storage
+```
+
 ## Usage
+
+[CodeSandbox](https://codesandbox.io/s/typesafe-storage-msl4z)
+
+```ts
+import { createStorage } from "typesafe-storage";
+
+const storage = createStorage<{
+  string: string;
+  number: number;
+  object: {
+    string: string;
+    number: number;
+  };
+  array: (string | number)[];
+}>(localStorage);
+
+storage.setItem("string", "value");
+storage.setItem("number", 1);
+storage.setItem("number", "error"); // ❌: Argument of type '"error"' is not assignable to parameter of type 'number'.
+storage.setItem("object", {
+  string: "value",
+  number: 1
+});
+storage.setItem("array", ["value", 1]);
+storage.setItem("notExistKey", "value"); // ❌: Argument of type '"notExistKey"' is not assignable to parameter of type '"string" | "number" | "object" | "array"'.
+
+storage.getItem("string");
+storage.getItem("number");
+storage.getItem("object");
+storage.getItem("array");
+storage.getItem("notExistKey"); // ❌: Argument of type '"notExistKey"' is not assignable to parameter of type '"string" | "number" | "object" | "array"'.
+
+storage.removeItem("string");
+storage.removeItem("number");
+storage.removeItem("object");
+storage.removeItem("array");
+storage.removeItem("notExistKey"); // ❌: Argument of type '"notExistKey"' is not assignable to parameter of type '"string" | "number" | "object" | "array"'.
+
+storage.clear();
+```
 
 ## Contributing
 
