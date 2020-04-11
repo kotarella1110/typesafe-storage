@@ -4,6 +4,7 @@ Typesafe [Web Storage API](https://developer.mozilla.org/en-US/docs/Web/API/Web_
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](LICENSE)
 [![Actions Status](https://github.com/kotarella1110/typesafe-storage/workflows/CI/badge.svg)](https://github.com/kotarella1110/typesafe-storage/actions?query=workflow%3ACI)
+[![NPM Version](https://img.shields.io/npm/v/typesafe-storage?style=flat-square)](https://www.npmjs.com/package/typesafe-storage)
 [![Downloads Month](https://img.shields.io/npm/dm/typesafe-storage?style=flat-square)](https://www.npmjs.com/package/typesafe-storage)
 [![Downloads Total](https://img.shields.io/npm/dt/typesafe-storage?style=flat-square)](https://www.npmjs.com/package/typesafe-storage)
 [![Dependencies Status](https://david-dm.org/kotarella1110/typesafe-storage.svg?style=flat-square)](https://david-dm.org/kotarella1110/typesafe-storage)
