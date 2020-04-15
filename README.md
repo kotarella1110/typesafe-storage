@@ -1,4 +1,6 @@
-# typesafe-storage
+<div align="center">
+
+<h1>typesafe-storage</h1>
 
 Typesafe [Web Storage API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API) wrapper to support objects and arrays.
 
@@ -17,6 +19,8 @@ Typesafe [Web Storage API](https://developer.mozilla.org/en-US/docs/Web/API/Web_
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
 
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
+
+</div>
 
 ## Installation
 
