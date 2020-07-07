@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/kotarella1110/typesafe-storage/compare/v1.0.0...v1.0.1) (2020-07-07)
+
+
+### Bug Fixes
+
+* **deps:** [security] bump npm from 6.14.3 to 6.14.6 ([43ec414](https://github.com/kotarella1110/typesafe-storage/commit/43ec414359f814f32d653713476d5ed022b89d28))
+
 # 1.0.0 (2020-04-07)
 
 
