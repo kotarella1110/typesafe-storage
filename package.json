@@ -55,7 +55,7 @@
     "@semantic-release/changelog": "^5.0.0",
     "@semantic-release/git": "^9.0.0",
     "@types/jest": "^26.0.10",
-    "all-contributors-cli": "^6.17.1",
+    "all-contributors-cli": "^6.17.2",
     "eslint-config-airbnb-typescript": "^7.2.1",
     "husky": "^4.2.5",
     "jest-localstorage-mock": "^2.4.3",
