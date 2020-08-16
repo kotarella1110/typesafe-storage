@@ -835,6 +835,11 @@
   resolved "https://registry.yarnpkg.com/@commitlint/execute-rule/-/execute-rule-9.1.1.tgz#59bfe018d85545881e4bd1a47f9cd155b2df4c2c"
   integrity sha512-kCncHMXfVDfmUx1NExl7T+s7udAWEOh039DFGR9R5MWoy+zm2cJsCdsbWFFuNbcPWCKor57ywdIUN2t048P6Yg==
 
+"@commitlint/execute-rule@^9.1.2":
+  version "9.1.2"
+  resolved "https://registry.yarnpkg.com/@commitlint/execute-rule/-/execute-rule-9.1.2.tgz#74a77eae50c8d2e5766822061ddf0df1b4f08027"
+  integrity sha512-NGbeo0KCVYo1yj9vVPFHv6RGFpIF6wcQxpFYUKGIzZVV9Vz1WyiKS689JXa99Dt1aN0cZlEJJLnTNDIgYls0Vg==
+
 "@commitlint/format@^9.1.1":
   version "9.1.1"
   resolved "https://registry.yarnpkg.com/@commitlint/format/-/format-9.1.1.tgz#a1a48bcdcaca304ff33d40bbf2b787600e47082e"
@@ -873,6 +878,19 @@
     lodash "^4.17.15"
     resolve-from "^5.0.0"
 
+"@commitlint/load@^9.1.2":
+  version "9.1.2"
+  resolved "https://registry.yarnpkg.com/@commitlint/load/-/load-9.1.2.tgz#c79634e8805ab35f318c535fdbda748288bf5395"
+  integrity sha512-FPL82xBuF7J3EJ57kLVoligQP4BFRwrknooP+vNT787AXmQ/Fddc/iYYwHwy67pNkk5N++/51UyDl/CqiHb6nA==
+  dependencies:
+    "@commitlint/execute-rule" "^9.1.2"
+    "@commitlint/resolve-extends" "^9.1.2"
+    "@commitlint/types" "^9.1.2"
+    chalk "4.1.0"
+    cosmiconfig "^6.0.0"
+    lodash "^4.17.19"
+    resolve-from "^5.0.0"
+
 "@commitlint/message@^9.1.1":
   version "9.1.1"
   resolved "https://registry.yarnpkg.com/@commitlint/message/-/message-9.1.1.tgz#7621e8f194d676d7d747bfdda49c00ca4d1572df"
@@ -886,23 +904,23 @@
     conventional-changelog-angular "^5.0.0"
     conventional-commits-parser "^3.0.0"
 
-"@commitlint/prompt-cli@^9.1.1":
-  version "9.1.1"
-  resolved "https://registry.yarnpkg.com/@commitlint/prompt-cli/-/prompt-cli-9.1.1.tgz#507c7fca8eaad78f40f8bbdcc2ae442e42e1740e"
-  integrity sha512-PRDOFOkUeUSq5J9ZlWIPIi0dTmG721UhazIz16g5ghpgK51UYrid00b/5OU78XPnoJK69q0H1yIAPAnF2x5f0A==
+"@commitlint/prompt-cli@^9.1.2":
+  version "9.1.2"
+  resolved "https://registry.yarnpkg.com/@commitlint/prompt-cli/-/prompt-cli-9.1.2.tgz#8d47ac9ddf41a4c16da59bd010819590b60265a2"
+  integrity sha512-t0Ghuqkb8qjrPuKPgUUMB0vhAYWb6O8XeZRkH1JSzFlbGNVJUNcH6xrk40z9JFLVdgLaUQziEdvtqGvP/WfWfA==
   dependencies:
-    "@commitlint/prompt" "^9.1.1"
+    "@commitlint/prompt" "^9.1.2"
     execa "^3.4.0"
 
-"@commitlint/prompt@^9.1.1":
-  version "9.1.1"
-  resolved "https://registry.yarnpkg.com/@commitlint/prompt/-/prompt-9.1.1.tgz#b7749047ef9c1b698b54f3f8436cdd62278a3936"
-  integrity sha512-NhEH9izuT92Bai/aSEH3YUrR3GOyrGFkqgUUFwJ4S4mCkLczrB5K+FwtXDDO8DKm+R+wWYFkhq4ZUFnIMidixw==
+"@commitlint/prompt@^9.1.2":
+  version "9.1.2"
+  resolved "https://registry.yarnpkg.com/@commitlint/prompt/-/prompt-9.1.2.tgz#b0fa35525fa940943eb388292780acbcb9aa4f6c"
+  integrity sha512-VxpF+e+rYZZ+8DjIEY3arSnWiKVbDISVxWGbrxUUbheIBnqr1fAFcpJHJWBOzJTW79J79Y6Y6KGcu2fXvPx0ug==
   dependencies:
     "@babel/runtime" "^7.9.6"
-    "@commitlint/load" "^9.1.1"
+    "@commitlint/load" "^9.1.2"
     chalk "^4.0.0"
-    lodash "^4.17.15"
+    lodash "^4.17.19"
     throat "^5.0.0"
     vorpal "^1.12.0"
 
@@ -922,6 +940,16 @@
   dependencies:
     import-fresh "^3.0.0"
     lodash "^4.17.15"
+    resolve-from "^5.0.0"
+    resolve-global "^1.0.0"
+
+"@commitlint/resolve-extends@^9.1.2":
+  version "9.1.2"
+  resolved "https://registry.yarnpkg.com/@commitlint/resolve-extends/-/resolve-extends-9.1.2.tgz#222dcb73b139b6645cf3ce3bd55db429a98600b3"
+  integrity sha512-HcoL+qFGmWEu9VM4fY0HI+VzF4yHcg3x+9Hx6pYFZ+r2wLbnKs964y0v68oyMO/mS/46MVoLNXZGR8U3adpadg==
+  dependencies:
+    import-fresh "^3.0.0"
+    lodash "^4.17.19"
     resolve-from "^5.0.0"
     resolve-global "^1.0.0"
 
@@ -951,6 +979,11 @@
   version "9.1.1"
   resolved "https://registry.yarnpkg.com/@commitlint/types/-/types-9.1.1.tgz#d97ebc35d20eed6d8458361cbca5c7cb85d45184"
   integrity sha512-SXY8bCQ1qacJ8AUTUxjabY8G6OjSmMPLN9MBCzGaKOjpPNX6z8zbXTbk9oU3GHZLtcxweWLCi2n49IRS4iQlwg==
+
+"@commitlint/types@^9.1.2":
+  version "9.1.2"
+  resolved "https://registry.yarnpkg.com/@commitlint/types/-/types-9.1.2.tgz#d05f66db03e3a3638a654e8badf2deb489eb220d"
+  integrity sha512-r3fwVbVH+M8W0qYlBBZFsUwKe6NT5qvz+EmU7sr8VeN1cQ63z+3cfXyTo7WGGEMEgKiT0jboNAK3b1FZp8k9LQ==
 
 "@iarna/cli@^1.2.0":
   version "1.2.0"
@@ -6035,6 +6068,11 @@ lodash@^4.11.2, lodash@^4.17.13, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.
   version "4.17.15"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
   integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
+
+lodash@^4.17.19:
+  version "4.17.20"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.20.tgz#b44a9b6297bcb698f1c51a3545a2b3b368d59c52"
+  integrity sha512-PlhdFcillOINfeV7Ni6oF1TAEayyZBoZ8bcshTHqOYJYlrqzRK5hagpagky5o4HfCzzd1TRkXPMFq6cKk9rGmA==
 
 log-symbols@^2.2.0:
   version "2.2.0"
