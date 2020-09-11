@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/kotarella1110/typesafe-storage/compare/v1.0.1...v1.0.2) (2020-09-11)
+
+
+### Bug Fixes
+
+* **deps:** [security] bump node-fetch from 2.6.0 to 2.6.1 ([fd375a5](https://github.com/kotarella1110/typesafe-storage/commit/fd375a555d3405f197cb5ccf262805354c93197d))
+
 ## [1.0.1](https://github.com/kotarella1110/typesafe-storage/compare/v1.0.0...v1.0.1) (2020-07-07)
 
 
