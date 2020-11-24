@@ -59,7 +59,7 @@
     "eslint-config-airbnb-typescript": "^7.2.1",
     "husky": "^4.3.0",
     "jest-localstorage-mock": "^2.4.3",
-    "lint-staged": "^10.5.1",
+    "lint-staged": "^10.5.2",
     "rimraf": "^3.0.2",
     "semantic-release": "^17.3.0",
     "tsdx": "^0.14.1",
