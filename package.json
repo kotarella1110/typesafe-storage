@@ -61,7 +61,7 @@
     "jest-localstorage-mock": "^2.4.7",
     "lint-staged": "^10.5.4",
     "rimraf": "^3.0.2",
-    "semantic-release": "^17.4.0",
+    "semantic-release": "^17.4.1",
     "tsdx": "^0.14.1",
     "tslib": "^2.1.0",
     "typescript": "^4.2.2"
