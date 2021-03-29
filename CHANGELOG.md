@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/kotarella1110/typesafe-storage/compare/v1.0.3...v1.0.4) (2021-03-29)
+
+
+### Bug Fixes
+
+* **deps:** [security] bump y18n from 3.2.1 to 3.2.2 ([71e16f1](https://github.com/kotarella1110/typesafe-storage/commit/71e16f15ca79dc3aab3ab138325e6b42b843e3a7))
+
 ## [1.0.3](https://github.com/kotarella1110/typesafe-storage/compare/v1.0.2...v1.0.3) (2020-12-10)
 
 
