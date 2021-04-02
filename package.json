@@ -49,7 +49,7 @@
   },
   "homepage": "https://github.com/kotarella1110/typesafe-storage#readme",
   "devDependencies": {
-    "@commitlint/cli": "^12.1.0",
+    "@commitlint/cli": "^12.1.1",
     "@commitlint/config-conventional": "^12.1.1",
     "@commitlint/prompt-cli": "^12.1.1",
     "@semantic-release/changelog": "^5.0.0",
