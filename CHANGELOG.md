@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/kotarella1110/typesafe-storage/compare/v1.0.4...v1.0.5) (2021-04-16)
+
+
+### Bug Fixes
+
+* **deps:** [security] bump ssri from 6.0.1 to 6.0.2 ([9c4d6a5](https://github.com/kotarella1110/typesafe-storage/commit/9c4d6a524c9c89b35716ba24fbe03e7ae7699190))
+
 ## [1.0.4](https://github.com/kotarella1110/typesafe-storage/compare/v1.0.3...v1.0.4) (2021-03-29)
 
 
