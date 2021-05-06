@@ -1,6 +1,6 @@
 {
   "name": "typesafe-storage",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Typesafe Web Storage API wrapper to support objects and arrays",
   "main": "dist/index.js",
   "module": "dist/typesafe-storage.esm.js",
