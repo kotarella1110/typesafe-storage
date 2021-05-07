@@ -1,3 +1,10 @@
+## [1.0.7](https://github.com/kotarella1110/typesafe-storage/compare/v1.0.6...v1.0.7) (2021-05-07)
+
+
+### Bug Fixes
+
+* **deps:** [security] bump hosted-git-info from 2.8.8 to 2.8.9 ([9ec01bc](https://github.com/kotarella1110/typesafe-storage/commit/9ec01bc39a7963809e4d0cbfb70496feee038765))
+
 ## [1.0.6](https://github.com/kotarella1110/typesafe-storage/compare/v1.0.5...v1.0.6) (2021-05-06)
 
 
