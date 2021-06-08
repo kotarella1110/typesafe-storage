@@ -1,3 +1,10 @@
+## [1.0.8](https://github.com/kotarella1110/typesafe-storage/compare/v1.0.7...v1.0.8) (2021-06-08)
+
+
+### Bug Fixes
+
+* **deps:** [security] bump glob-parent from 5.1.1 to 5.1.2 ([e43969e](https://github.com/kotarella1110/typesafe-storage/commit/e43969e0529b6e02a4161b39270b86d2a618f796))
+
 ## [1.0.7](https://github.com/kotarella1110/typesafe-storage/compare/v1.0.6...v1.0.7) (2021-05-07)
 
 
