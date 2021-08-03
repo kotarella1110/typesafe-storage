@@ -1,3 +1,10 @@
+## [1.0.9](https://github.com/kotarella1110/typesafe-storage/compare/v1.0.8...v1.0.9) (2021-08-03)
+
+
+### Bug Fixes
+
+* **deps:** [security] bump tar from 4.4.13 to 4.4.15 ([6a11d89](https://github.com/kotarella1110/typesafe-storage/commit/6a11d8987adc2ef702557d80f3b6f0f46cb615b8))
+
 ## [1.0.8](https://github.com/kotarella1110/typesafe-storage/compare/v1.0.7...v1.0.8) (2021-06-08)
 
 
